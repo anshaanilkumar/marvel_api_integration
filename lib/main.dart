@@ -42,7 +42,9 @@ class _MarvelListScreenState extends State<MarvelListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Marvel Characters',style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
+        title: const Text('Marvel Characters',
+          style: TextStyle(color: Colors.black,
+            fontWeight: FontWeight.bold),),
       centerTitle: true,
         elevation: 2,
       ),
